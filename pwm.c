@@ -1,3 +1,15 @@
+
+/*
+Slave Mode: Disable
+Clock Source: Internal Clock
+Channel 1: PWM Generation CH1
+Prescaler: 89
+Counter Period (ARR): 999
+Pulse (CCR1): 500
+PB4: TIM3_CH1 alternate function
+PWM frequency: 1 kHz, assuming a 90 MHz TIM3 clock
+           */
+
 #include "main.h"
 
 extern TIM_HandleTypeDef htim3;
